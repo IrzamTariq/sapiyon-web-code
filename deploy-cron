@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+cd ~/sapiyon/web
+git checkout master
+git pull
+export APP_ENV=production
+yarn && yarn build
+if [ -d html ]
+then
+    rm -rf html
+fi
+mv build html
+

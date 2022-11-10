@@ -1,0 +1,32 @@
+.s-rte h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.s-rte h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.s-rte h3 {
+  font-size: 1.17rem;
+  font-weight: 500;
+}
+
+.s-rte ol {
+  list-style-type: decimal;
+}
+
+.s-rte ol,
+.s-rte ul {
+  padding: 1rem 2.5rem;
+}
+
+.s-rte ul {
+  list-style-type: disc;
+}
+.s-rte h1,
+h2,
+h3 {
+  color: inherit;
+}

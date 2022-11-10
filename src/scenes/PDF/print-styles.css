@@ -1,0 +1,25 @@
+@media print {
+  .main {
+    margin: 8pt;
+  }
+  .paper {
+    margin: none;
+  }
+  body {
+    height: 99%;
+  }
+}
+
+@media screen {
+  .paper {
+    background-color: #edf2f7;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 4rem;
+  }
+  .main {
+    width: 8.25in;
+    box-shadow: 5px 5px 12px #c1bcbc;
+    padding: 40px 30px 20px;
+  }
+}

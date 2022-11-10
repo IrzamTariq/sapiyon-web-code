@@ -1,0 +1,30 @@
+:root {
+  // Input styles
+  --placeholder-color: #999999;
+  --label-color: rgba(0, 0, 0, 0.85);
+  --input-text-color: black;
+  --input-bg-color: #f5f8fa;
+  --input-border-color: #cbd6e2;
+
+  // Text styles
+  --main-text-color: rgba(0, 0, 0, 0.9);
+  --light-text-color: rgba(0, 0, 0, 0.6);
+  --main-font-family: Roboto;
+  --page-title-size: 1.5rem;
+  --modal-title-size: 1.1rem;
+  --page-title-color: rgba(0, 0, 0, 0.9);
+  --semibold-weight: 500;
+
+  // Table styles
+  --table-text-size: 0.875rem;
+  --column-title-color: rgba(0, 0, 0, 0.9);
+  --table-text-color: rgba(0, 0, 0, 0.9);
+
+  // Icons & Buttons
+  --label-icon-color: rgb(0, 0, 0, 0.3);
+  --default-icon-color: rgb(0, 0, 0, 0.4);
+  --primary-btn-color: #1890ff;
+  --normal-border-radius: 4px;
+  --normal-icon-size: 1.4rem;
+  --info-bg: #36a500;
+}

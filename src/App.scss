@@ -1,0 +1,21 @@
+@import "~antd/dist/antd.css";
+@import "./styles.css";
+@import "./styles/colors.scss";
+
+// make root 90% height
+html,
+body,
+#root {
+  height: 90%;
+}
+
+//fix blank page in pdfs
+@media print {
+  html,
+  body {
+    border: 1px solid white;
+    height: 99%;
+    page-break-after: avoid;
+    page-break-before: avoid;
+  }
+}
